@@ -1,0 +1,92 @@
+/* unvisited link */
+a:link {
+  color: rgb(209, 81, 209);
+}
+
+/* visited link */
+a:visited {
+  color: darkmagenta;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: rgb(215, 131, 254);
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.content {
+  max-width: 500px;
+  margin: auto;
+}
+body {
+  background-image: url("Strawberry_Milk.jpg"); 
+  font-family: ms ui gothic, 'basiicmedium';
+  background-repeat: no-repeat;
+  cursor: url("pink_wand.png"), auto;
+  background-attachment: fixed;
+  background-size: 119%;
+}
+  h1 {
+    border-style: solid;
+    border-width: 4px 6px;
+    border-color: palevioletred;
+    color: #c086dd;;
+    text-align: center;
+  }
+  
+  p {
+    color: #c086dd;
+    font-size: 20px;
+  }
+
+  h2 {
+    border-style: solid;
+    border-width: 4px 6px;
+    border-color: palevioletred;
+    color: #c086dd;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  p {
+    border-style: dotted;
+    color: #c086dd;
+    font-size: 30px;
+  }
+  img {
+    border: 5px dotted; 
+    border-color: #ffa8cb;
+  }
+  h3 {
+    border-style: solid;
+    border-width: 4px 6px;
+    border-color: palevioletred;
+    color: #c086dd;
+    text-align: center;
+    font-size: 30px;
+  }
+  
